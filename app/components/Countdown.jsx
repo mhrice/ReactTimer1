@@ -52,7 +52,7 @@ handleSetCountdown: function(seconds){
     countdownStatus: 'started'
   });
 },
-handleStatusChange(newStatus){
+handleStatusChange: function(newStatus){
   this.setState({
     countdownStatus: newStatus
   });
